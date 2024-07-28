@@ -1,13 +1,14 @@
-meters,price,type
-5,100,blosh
-10,100,blosh
-20,100,blosh
-30,100,blosh
-40,100,blosh
-60,100,blosh
-0,100,blosh
-55,100,blosh
-55,100,blosh
-70,100,blosh
-200,150,melton
-55,85,milton
+meters,price,type,time
+5,100,blosh,28-07-2024
+10,100,blosh,28-07-2024
+20,100,blosh,28-07-2024
+30,100,blosh,28-07-2024
+40,100,blosh,28-07-2024
+60,100,blosh,28-07-2024
+0,100,blosh,28-07-2024
+55,100,blosh,28-07-2024
+55,100,blosh,28-07-2024
+70,100,blosh,28-07-2024
+200,150,melton,28-07-2024
+55,85,milton,28-07-2024
+99,215,milton coton,28-07-2024
