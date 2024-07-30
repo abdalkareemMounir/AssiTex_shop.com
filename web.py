@@ -2,11 +2,17 @@ from function import manage_csv
 import streamlit as st
 import time
 from streamlit_navigation_bar import st_navbar
+from streamlit_option_menu import option_menu
 
+with st.sidebar:
+    selected = option_menu(
+        menu_title="Main menu",
+        options = ["Home","Documentation","Dashbord"]
+    )
 
-page = st_navbar(["Home", "Documentation","Dashbord"])
-st.write(page)
-if page == "Home":
+#page = st_navbar(["Home", "Documentation","Dashbord"])
+st.write(selected)
+if selected == "Home":
     with st.form("my_form"):
         st.title("Assi shop app")
 
@@ -27,7 +33,7 @@ if page == "Home":
             manage_csv.add_toCSV(mylist,"assi_shop.csv")
             st.write("meter",meter,"price",price,"type",type_sold,"time",time_sold)
 
-elif page == "Documentation":
+elif selected == "Documentation":
     st.write("data")
     df1 = manage_csv.show_csv("assi_shop.csv")
     st.dataframe(df1)
