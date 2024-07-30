@@ -1,7 +1,7 @@
 from function import manage_csv
 import streamlit as st
 import time
-from streamlit_navigation_bar import st_navbar
+#from streamlit_navigation_bar import st_navbar
 from streamlit_option_menu import option_menu
 
 with st.sidebar:
